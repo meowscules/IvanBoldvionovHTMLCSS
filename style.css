@@ -1,12 +1,254 @@
-body {
-    max-width: 1000px;
-   }
-p {
-    font-family: Times New Roman;
-    font-size: 14pt;
-    margin: 75.590551181px 56.692913386px 75.590551181px 113.38582677px;
-    text-align: justify;
-   }
-.fig {
+
+.container{
+    position: absolute;
+    width: 1680px;
+    height: 489px;
+    left: 80px;
+    top: 80px;
+    background: #FFFFFF;
+}
+.mobileApp{
+    position: absolute;
+    width: 173px;
+    height: 24px;
+    left: 850px;
+    top: 120px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+    letter-spacing: -0.015em;
+
+color: #000000;
+}
+.featuresLiveShare{
+position: absolute;
+width: 173px;
+height: 72px;
+left: 850px;
+top: 160px;
+
+font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+/* or 160% */
+
+letter-spacing: -0.015em;
+
+color: rgba(0, 0, 0, 0.8);
+}
+
+.photoInc{
+    position: absolute;
+    width: 301px;
+    height: 24px;
+    left: 80px;
+    top: 335px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.followUs{
+    position: absolute;
+    width: 300px;
+    height: 24px;
+    left: 1043px;
+    top: 335px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+    text-align: right;
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.community{
+    position: absolute;
+    width: 173px;
+    height: 24px;
+    left: 1043px;
+    top: 120px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+
+.featuredArtist
+{
+    position: absolute;
+    width: 173px;
+    height: 72px;
+    left: 1043px;
+    top: 160px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.company{
+    position: absolute;
+    width: 173px;
+    height: 24px;
+    left: 1234px;
+    top: 120px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 24px;
+    /* identical to box height, or 160% */
+
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+
+.aboutUs{
+    position: absolute;
+    width: 173px;
+    height: 72px;
+    left: 1234px;
+    top: 160px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    /* or 160% */
+
+    letter-spacing: -0.015em;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.sampleLogo{
+    position: absolute;
+    width: 122.07px;
+    height: 32px;
+    left: 80px;
+    top: 120px;
+
+}
+
+.photo{
+    position: absolute;
+    left: 28.16%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+    font-family: Comfortaa;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28.4444px;
+    line-height: 32px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
     text-align: center;
-   }
+    letter-spacing: -0.015em;
+
+    color: #000000;
+}
+
+.union1{
+    position: absolute;
+    left: 18.45%;
+    right: 63.11%;
+    top: 79.63%;
+    bottom: -50%;
+
+    background: #000000;
+    transform: rotate(-180deg);
+}
+
+.union2{
+    position: absolute;
+    left: 0%;
+    right: 81.55%;
+    top: 9.26%;
+    bottom: 20.37%;
+
+    background: #CCCCCC;
+}
+
+.rect1{
+    position: absolute;
+    left: 12.98%;
+    right: 68.57%;
+    top: 9.26%;
+    bottom: 69.89%;
+
+    background: #C4C4C4;
+    transform: matrix(0, 1, 1, 0, 0, 0);
+}
+.rect2{
+    position: absolute;
+    left: 18.45%;
+    right: 63.11%;
+    top: 79.63%;
+    bottom: -0.48%;
+
+    background: #C4C4C4;
+    transform: rotate(-180deg);
+}
+.rect3{
+    position: absolute;
+    left: 5.47%;
+    right: 76.09%;
+    top: 79.63%;
+    bottom: -0.48%;
+
+    background: #C4C4C4;
+    transform: matrix(0, -1, -1, 0, 0, 0);
+}
+.rect4
+{
+    position: absolute;
+    left: 0%;
+    right: 81.55%;
+    top: 9.26%;
+    bottom: 69.89%;
+
+    background: #C4C4C4;
+}
